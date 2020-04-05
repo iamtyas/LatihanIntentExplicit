@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="28dp"
+    tools:context=".BroadcastWhatsAppActivity">
+
+    <EditText
+        android:id="@+id/edit_nama_bc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama"
+        android:padding="13dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_nama_bc"
+        android:id="@+id/kode"
+        android:layout_marginBottom="17dp"
+        android:padding="11dp"
+        android:text="+62"/>
+
+    <EditText
+        android:id="@+id/edit_nomor_bc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nomor"
+        android:layout_below="@id/edit_nama_bc"
+        android:layout_toRightOf="@id/kode"
+        android:padding="13dp"
+        android:layout_marginBottom="17dp"
+        android:inputType="number"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_nomor_bc"
+        android:text="@string/bc_wa"
+        android:id="@+id/btn_bc_wa"/>
+
+</RelativeLayout>

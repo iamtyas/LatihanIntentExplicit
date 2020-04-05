@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tris Task</string>
+    <string name="move_activity">Pindah Activity</string>
+    <string name="move_with_data">Pindah Activity dengan Data</string>
+    <string name="dial_number">Dial a Number</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="this_is_moveactivity">Ini Move Activity</string>
+    <string name="chat_wa">Chat WhatsApp</string>
+    <string name="bc_wa">Broadcast WhatsApp</string>
+    <string name="map">Where Are You</string>
+    <string name="nama">Masukkan Nama</string>
+    <string name="nomor">Masukkan Nomor WhatsApp</string>
+</resources>
